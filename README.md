@@ -1,6 +1,8 @@
-# GEN-EXPRESS-CLI
+# DELIVERY-POC
 
-This is a CLI tool to generate express.js boilerplate code.
+Simple POC utilisant:
 
-- [GITHUB](https://github.com/RulerChen/gen-express-cli)
-- [NPM](https://www.npmjs.com/package/gen-express-cli)
+- express
+- postgreSQL
+- redis
+- rabbitMQ
