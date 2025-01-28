@@ -10,8 +10,10 @@ router.get('/', async (req, res) => {
   try {
     const cached = await redis.get('deliveries');
     if (cached) {
+      console.log('redis cache hit');
       return res.json(JSON.parse(cached));
     }
+    console.log('redis cache miss');
 
     const result = await query('SELECT * FROM deliveries');
     const deliveries = result.rows;
