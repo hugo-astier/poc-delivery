@@ -1,7 +1,7 @@
 import amqp from 'amqplib';
 import { query } from '../src/services/db.js'; // Connexion à PostgreSQL
 
-const RABBITMQ_URL = 'amqp://rabbitmq';
+const RABBITMQ_URL = 'amqp://localhost:5672';
 
 async function startWorker() {
   try {
