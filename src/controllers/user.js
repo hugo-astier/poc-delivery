@@ -1,10 +1,10 @@
-import usersModel from '@/models/user.js';
+// import usersModel from '@/models/user.js';
 
-function getAllUsers(req, res) {
-  const users = usersModel.getUsers();
-  res.status(200).json(users);
-}
+// function getAllUsers(req, res) {
+//   const users = usersModel.getUsers();
+//   res.status(200).json(users);
+// }
 
-export default {
-  getAllUsers,
-};
+// export default {
+//   getAllUsers,
+// };

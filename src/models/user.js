@@ -1,16 +1,16 @@
-class UsersModel {
-  constructor() {
-    this.users = [
-      { name: 'RulerChen', descrition: 'Author of this project' },
-      { name: 'joshtu0627', descrition: 'Author of this project' },
-    ];
-  }
+// class UsersModel {
+//   constructor() {
+//     this.users = [
+//       { name: 'RulerChen', descrition: 'Author of this project' },
+//       { name: 'joshtu0627', descrition: 'Author of this project' },
+//     ];
+//   }
 
-  getUsers() {
-    return this.users;
-  }
-}
+//   getUsers() {
+//     return this.users;
+//   }
+// }
 
-const usersModel = new UsersModel();
+// const usersModel = new UsersModel();
 
-export default usersModel;
+// export default usersModel;
